@@ -487,7 +487,7 @@ from {
 /* Project Section Styling */
 .project {
     padding: 80px 10%;
-    background: var(--second-bg-color);
+    /* background: var(--second-bg-color); */
 }
 
 .project-container {
