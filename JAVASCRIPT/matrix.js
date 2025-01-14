@@ -123,3 +123,4 @@ function init() {
 
 
 word.addEventListener('mouseenter', init)
+
