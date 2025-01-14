@@ -651,3 +651,63 @@ from {
 .contact-form .btn:hover {
     background: var(--main-color-hover);
 }
+
+
+.footer {
+    background: var(--bg-color);
+    padding: 2rem 0;
+    text-align: center;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.footer-text p {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.footer-social a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: var(--main-color);
+    margin: 0.5rem;
+    transition: .5s ease;
+}
+
+.footer-social a:hover {
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+
+.home-img .glowing-circle .image {
+    position: relative;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.home-img .glowing-circle .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
